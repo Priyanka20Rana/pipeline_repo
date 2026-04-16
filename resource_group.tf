@@ -1,4 +1,4 @@
 resource "azurerm_resource_group" "pipeline-rg" {
-  name     = "arjun-rg"
-  location = "eastus"
+  name     = "prod-rg"
+  location = "central india"
 }
