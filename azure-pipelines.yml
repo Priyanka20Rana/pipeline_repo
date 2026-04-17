@@ -33,6 +33,11 @@ steps:
     command: 'apply'
     commandOptions: '-auto-approve'
     environmentServiceNameAzureRM: 'first-sc'
-
+- task: TerraformTask@5
+  inputs:
+    provider: 'azurerm'
+    command: 'destroy'
+    commandOptions: '-auto-approve'
+    environmentServiceNameAzureRM: 'first-sc'
 
 
